@@ -1,0 +1,59 @@
+#buyUl{
+	position: relative;
+	width: 96%;
+	padding: 0 2%;
+	margin-top:30px ;
+}#buyUl li{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+}
+#buyUl span{
+	display: inline-block;
+	width: 25%;
+	text-align: right;
+}#buyUl input,#buyUl select{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 66%;
+	padding: 0 2%;
+	border: 1px solid #7BACD2;
+	height: 30px;
+	border-radius: 5px;
+}
+.form p{
+	position: relative;
+	margin: 20px 0 40px 0;
+	text-align: center;
+}
+.form p a{
+	margin: 0 15px ;
+	width: 60px;
+	border-radius: 5px;
+}
+
+@media only screen and (min-device-width: 767px) {
+		#buyUl li {
+		    position: relative;
+		    height: 55px;
+		    line-height: 55px;
+		}
+		#buyUl input, #buyUl select {
+		    line-height: 40px;
+		    height: 40px;
+		    font-size: 16px;
+		    border-radius: 10px;
+		}
+		#buyUl span {
+		    font-size: 16px;
+		}
+		.form p a {
+		    margin: 0 20px;
+		    width: 80px;
+		    height: 40px;
+		    line-height: 40px;
+		    text-align: center;
+		    border-radius: 10px;
+		    font-size: 16px;
+		}
+}

@@ -1,0 +1,115 @@
+#headerInfor{
+	position: relative;
+	background: #7BACD2;
+	text-align: center;
+	padding: 10px 0  ;
+	margin: 5px 0 ;
+}
+#headerInfor #headerImg{
+	position: relative;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 10px auto;
+}#headerInfor #headerImg input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	filter:alpha(opacity=0);  /*支持 IE 浏览器*/
+	-moz-opacity:0; /*支持 FireFox 浏览器*/
+	-khtml-opacity:0; /*webkit内核浏览器*/
+	opacity:0;  /*支持 Chrome, Opera, Safari 等浏览器*/
+
+}
+#headerInfor #userName{
+	position: relative;
+	width:50%;
+	margin: 10px auto;
+	border-bottom: 1px solid #FFFFFF;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+}
+#userInfor{
+	position: relative;
+	width: 100%;
+	line-height: 20px;
+	font-size: 12px;
+	color: #FFFFFF;
+}#userInfor span{
+	display: inline-block;
+	width: 28%;
+	margin: 0 5px;
+}#userInfor span:nth-child(2){
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+#otherInfor{
+	position: relative;
+	margin: 0 0 100px 0;
+}
+#monyInfor,#bookInfor{
+	position:relative;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}#bookInfor{
+	border-left: 1px solid #fff;
+	float: right;
+}#monyInfor{
+	border-right: 1px solid #fff;
+}
+#monyInfor ul li,#bookInfor ul li{
+	position:relative;
+	height: 50px;
+	line-height: 50px;	
+	background: #7BACD2;
+	background: rgba(123,172,210,0.45);
+	margin: 2px 0;
+}
+#monyInfor ul li a,#bookInfor ul li a{
+	position:relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}#monyInfor ul li a b,#bookInfor ul li a b{
+	color: #F72F20;
+}
+
+#monyInfor ul li img,#bookInfor ul li img{
+	display: block;
+	float: left;
+	width: 30px;
+	margin: 10px 5px 0 5px;
+	
+}
+@media only screen and (min-device-width: 767px) {
+		#headerInfor #headerImg{
+		    height: 110px;
+		    width: 110px;
+		}
+		#headerInfor #userName {
+		    line-height: 50px;
+		    font-size: 16px;
+		}
+		#userInfor {
+		    line-height: 30px;
+		    font-size: 14px;
+		}
+		#monyInfor ul li img, #bookInfor ul li img {
+		    width: 80px;
+		}
+		#monyInfor ul li, #bookInfor ul li {
+		    height: 100px;
+		    line-height: 100px;
+		}
+		#monyInfor ul li a, #bookInfor ul li a {
+		    font-size: 20px;
+		}
+}

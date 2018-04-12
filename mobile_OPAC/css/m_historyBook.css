@@ -1,0 +1,119 @@
+#date{
+	position: relative;
+	width: 96%;
+	padding: 5px 2% 0 ;
+}
+#date span{
+	display: inline-block;
+	line-height: 40px;
+	font-size: 12px;
+}#date  input{
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #7BACD2;
+	width:100%;
+	padding: 0 2%;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+#buyList{
+	position: relative;
+}
+#buyList li{
+	position: relative;
+	width: 96%;
+	padding: 5px 2%;
+	margin: 3px 0;
+}#buyList li:nth-child(2n){
+	color:#7BACD2;
+}#buyList li:nth-child(2n-1){
+	background: rgba(123,172,210,0.2);
+	color: #666;
+}#buyList li:last-child{
+	border-bottom: 1px dotted #7BACD2;
+}
+#buyList li p{
+	
+	line-height: 15px;
+	font-size: 12px;
+}
+#buyList li p b{
+	color: #f72F20;
+}
+
+#buyList li p span{
+	display: inline-block;
+	width: 70px;
+	text-align-last: justify;
+}#buyList li a{
+	position: absolute;
+	top: 10px;
+	right: 2%;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+}
+#buyList li .cz{
+	height: 18px;
+	line-height: 18px;
+	top: 5px;
+	
+}#buyList li .cz2{
+	height: 18px;
+	line-height: 18px;
+	top: 27px;
+	
+}
+.Zebra_DatePicker_Icon_Wrapper{
+	width:40%;
+	float: left !important;
+	margin: 0px 20px 0 0; 
+}
+button.Zebra_DatePicker_Icon_Inside_Right {
+    margin: 4px 5px 0 0 !important;
+}
+#SandE{
+	float: left;
+	margin: 0 10px 0 0;
+}
+@media only screen and (min-device-width: 767px) {
+		#buyList li p {
+		    line-height: 27px;
+		    font-size: 16px;
+		}
+		#buyList li a {
+		    width:80px;
+		    height: 40px;
+		    line-height: 40px;
+		    text-align: center;
+		    font-size: 16px;
+		}
+		#buyList li .cz2 {
+		    height: 30px;
+		    line-height: 30px;
+		    top: 40px;
+		}
+		#buyList li .cz {
+		    height: 30px;
+		    line-height: 30px;
+		    top: 5px;
+		}
+		.Zebra_DatePicker_Icon_Wrapper{
+			width:30%;
+			margin: 0px 20px 0 0; 
+		}
+		button.Zebra_DatePicker_Icon_Inside_Right {
+		    margin: 1px 5px 0 0 !important;
+		}
+		#date{
+			padding: 15px 2% 0 ;
+		}
+		#date  input{
+			line-height: 40px;
+			height: 40px;
+			font-size:18px ;
+		}
+		
+		
+}

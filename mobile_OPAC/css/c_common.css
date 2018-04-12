@@ -1,0 +1,343 @@
+body,p,html,a,div,span,h1,h3,ul,li,
+input,button,table,label,img,i,ol,select,textarea{
+	margin:0px;
+	padding:0px;
+	
+	-webkit-text-size-adjust:100%;
+	 /*旋转屏幕时，字体大小调整的问题*/
+}
+ul,ol,li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+html{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	
+}
+.clearfloat{
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+input,select,button,a{
+	outline: none;
+	border:none;
+	
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	/*ios和android下触摸元素时出现半透明灰色遮罩*/
+}
+input["type=date"]{
+	line-height: 30px;
+}
+.c-back{
+	position: fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	/*background-image: url(../img/bookback.png);*/	
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+/*底部填充*/
+.tianchong{
+	width: 100%;
+	height: 60px;
+}
+
+/*多行/单行文本溢出省略号*/
+.sigrow{
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.numsrow{
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+}
+
+/*主题背景颜色 1为主色，其余为配套主题色*/
+.backColor{
+	background-color: #7bacd2;
+}
+/*主字体颜色 1为主色，其余为配套主题色*/
+.fontColor{
+	color: #7bacd2;
+}
+.fontColor2{
+	color: #ffffff;
+}
+
+/*板块标题*/
+/*文字居左*/
+.titLeft{
+	width: 95%;
+	padding: 0 2.5%;	
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+/*文字居中*/
+.titCenter{
+	width: 95%;
+	padding: 0 2.5%;	
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+
+/*border*/
+.borderAll{
+	border: 1px solid #7BACD2;/*主题色*/
+}
+.borderBot{
+	border-bottom: 1px solid #7BACD2;
+}
+.borderTop{
+	border-top: 1px solid #7BACD2;
+}
+.borderBT{
+	border-bottom: 1px solid #7BACD2;
+	border-top: 1px solid #7BACD2;
+}
+.borderLR{
+	border-left: 1px solid #7BACD2;
+	border-right: 1px solid #7BACD2;
+}
+/*用a标签写的按钮*/
+/*z 表示正色，f表示反色*/
+.abtnz,.abtnf{
+	display: inline-block;
+	border: 1px solid #7BACD2;/*主题色*/
+	background: #7BACD2;
+	color: #fff;
+	padding: 0 5px;
+	height: 30px;    /*一般情况高度*/
+	line-height: 30px;
+}.abtnf{
+	background: #fff;
+	color: #7BACD2;
+}
+
+/*hover时颜色变成当前颜色的反色,active时出现内阴影*/
+/*.abtnz:hover{
+	background: #fff;
+	color: #7BACD2;
+}.abtnf:hover{
+	background: #7BACD2;
+	color: #fff;
+}*/
+/*移动端不需要*/
+
+
+.abtnf:active{
+	box-shadow: inset 0 0 10px #7BACD2;
+}.abtnz:active{
+	box-shadow: inset 0 0 10px #fff;
+}
+
+header{
+	position:fixed;
+	top: 0px;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	z-index: 11;
+	border-bottom: 1px solid #fff;
+}
+header .topbtn{
+	display: block;
+	line-height: 30px;
+	height:30px;
+	width: 30px;
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+#sousuo{
+	margin: 10px 0 0 0;
+	background: #cacaca;
+	width: 96%;
+	padding: 0 2%;
+	height: 40px;
+}
+#sousuo img{
+	display: inline-block;
+	background: #fff;
+	width: 32px;
+	line-height:32px;
+	margin: 4px 0 0 1%;
+	position: relative;
+	border-radius: 5px 0 0 5px;
+}#sousuo a{
+	margin: 4px 0 0 0;
+	border-radius: 0 5px 5px 0;
+}#sousuo select,#sousuo input{
+	width: 25%;
+	border: none;
+	border-radius: 5px;
+	height: 32px ;
+	line-height: 32px;
+	margin: 4px 0 0 0;
+}#sousuo input{
+	border-radius:0;
+	width: 50%;
+}
+#loadMore{
+	position: relative;
+	width: 90%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 10px auto;
+}
+footer{
+	position: fixed;
+	border-top: 1px solid #fff;
+	bottom: 0px;
+	height: 60px;
+	width: 100%;
+}
+footer ul li{
+	float:left;
+	width: 16.666666%;
+}
+footer ul li a{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 60px;
+	color:#fff;
+	font-size: 12px;
+	text-align: center;
+}footer ul li a span{
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	width: 100%;
+}footer ul li a img{
+	position: absolute;
+	left: 50%;
+	top:5px;
+	-webkit-transform: translateX(-50%);
+	display: block;
+	height: 50%;
+}
+.company{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+
+
+.layui-layer-title{
+	background: #7BACD2 !important;
+	color: #fff !important;
+	border-radius: 10px 10px 0 0 !important;
+}
+.layui-layer{
+	border-radius: 10px !important;
+	height: auto !important;
+	max-height: 400px !important;
+	
+} 
+
+
+/*菜单按钮点击出现的子导航*/
+#menuboard{
+	position: fixed;
+	right: 0px;
+	z-index: 10;
+	width: 30%;
+	padding: 5px 20px;
+	background: rgba(0,0,0,0.8);
+	right: -100%;
+}#menuboard ul li a{
+	text-align: center;
+	display: block;
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+}#menuboard ul li{
+	border-bottom: 1px dotted #fff;
+}#menuboard ul li:last-child{
+	border-bottom:none;
+}
+@media only screen and (min-device-width: 767px) {
+		.titLeft{
+		    height: 60px;
+		    font-size: 25px;
+		    line-height: 60px;
+		}
+		.titCenter {
+		    height: 50px;
+		    line-height: 50px;
+		    font-size: 25px;
+		}
+		#sousuo {
+		    height: 60px;
+		}
+		#sousuo select, #sousuo input {
+		    height: 52px;
+		    line-height: 52px;
+		    border-radius: 10px;
+		    font-size: 18px;
+		}
+		#sousuo img {
+		    width: 52px;
+		    border-radius: 10px 0 0 10px;
+		}
+		#sousuo input {
+		    border-radius: 0px;
+		    width: 60%;
+		}
+		#sousuo a {
+		    height: 51px;
+		    font-size: 18px;
+		    line-height: 51px;
+		    border-radius: 0 10px 10px 0;
+		}
+		#loadMore {
+		    height: 40px;
+		    line-height: 40px;
+		    font-size: 16px;
+		}
+}
+
+/*@media only screen and (min-device-width: 1023px) {
+}
+*/
+
+.Zebra_DatePicker_Icon_Wrapper{
+	width:40%;
+	float: left !important;
+	margin: 0px 20px 0 0; 
+}
+button.Zebra_DatePicker_Icon_Inside_Right {
+    margin: 4px 5px 0 0 !important;
+}
+#SandE{
+	float: left;
+	margin: 0 10px 0 0;
+}

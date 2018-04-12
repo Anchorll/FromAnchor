@@ -1,0 +1,131 @@
+
+
+#booklist ul li{
+	position: relative;
+	width: 96%;
+	padding:0 2%;
+	border-bottom: 1px solid #ccc;
+}
+.bookImg{
+	float: left;
+	position: relative;
+	width: 30%;
+	height: 120px;
+}
+.bookImg img{
+	width: 90%;
+	max-width: 120px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+}
+.bookInfor{
+	float: left;
+	width: 70%;
+	font-size: 12px;
+}.bookInfor p{
+	width: 98%;
+	padding-left: 2%;
+	margin: 3px 0;
+}.bookInfor button{
+	position: absolute;
+	right: 2%;
+	top: 10px;
+	width: 60px;
+	font-size: 12px;
+}.bookInfor button.abtnf{
+	position: absolute;
+	right: 2%;
+	top: 50px;
+}
+.bookInfor .bname{
+	color: #7BACD2;
+	font-size: 14px;
+}
+#loadMore{
+	position: relative;
+	width: 90%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 10px auto;
+}
+#menuboard1{
+	position:fixed;
+	top: 30px;
+	right: -100%;
+	width: 90%;
+	overflow-y: auto;
+	background: rgba(155,155,155,0.9);
+	box-shadow: 0 0 10px #000000;
+}
+#menuboard1 form>ul>li{
+	position: relative;
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size:12px;
+	border-bottom:1px solid #fff ;
+}
+#list{
+	position: relative;
+	width: 96%;
+	padding: 10px 2%;
+	background: rgba(255,255,255,0.9);
+	text-align: center;
+}
+#list ul li{
+	display: inline-block;
+	padding: 0 10px;
+	border: 1px solid #7BACD2;
+	margin: 5px;
+}
+#list ul li a{
+	color: #7BACD2;	
+}
+#list>a{
+	position: relative;
+	width: 100px;
+	margin: 10px 0 0 0px;
+	text-align: center;
+	/*left: 50%;*/
+}
+
+
+/*点击馆藏以及信息概览出现的弹窗*/
+#bdetailsb{
+	position: relative;
+	width: 96%;
+	padding: 10px 2%;
+}#bdetailsb ul li{
+	position: relative;
+	padding: 5px 0;
+	margin: 5px;
+	border-bottom: 1px solid #7BACD2;
+}
+#bdetailsb ul li p{
+	font-size: 12px;
+}
+#bdetailsb ul li p span{
+	width: 55px;
+	display: inline-block;
+	text-align-last: justify;
+}
+
+
+
+
+@media only screen and (min-device-width: 767px) {
+		.bookImg {
+		    width: 15%;
+		}
+}@media only screen and (min-device-width: 1023px) {
+		.bookImg {
+		    width: 10%;
+		}
+}

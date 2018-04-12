@@ -1,0 +1,48 @@
+#article{
+	position: relative;
+	width: 96%;
+	padding: 0 2%;
+}#article>a{
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	margin: 20px 0 40px;
+}
+#source{
+	position: relative;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: #666;
+}
+#paperCont{
+	margin: 10px 0;
+}
+.current{
+	display: block;
+	position: relative;
+	float: right;
+	font-size: 12px;
+	color:#7BACD2;
+	margin: 7px 10px;
+}
+@media only screen and (min-device-width: 767px) {
+		#paperCont {
+		    font-size: 18px;
+		    line-height: 25px;
+		}
+		#source {
+		    font-size: 16px;
+		    line-height: 25px;
+		}
+		#article>a {
+		    height: 40px;
+		    line-height: 40px;
+		    font-size: 18px;
+		    width: 80px;
+		    text-align: center;
+		}
+		.current {
+		    font-size: 16px;
+		}
+}

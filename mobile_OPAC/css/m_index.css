@@ -1,0 +1,35 @@
+
+#hotQuery{
+	margin: 10px 0;
+	position: relative;
+	width: 96%;
+	padding: 0 2%;
+}
+#hotQuery ul li{
+	float: left;
+	width: auto;
+	padding: 0 3px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #f00;
+}
+#tips{
+	margin: 20px 0 0 0 ;
+	position: relative;
+	width: 85%;
+	padding:0 6.5% 20px 8.5%;
+}#tips ul li{
+	list-style: circle;
+	margin: 3px 0;
+	font-size: 13px;
+	color: #999;
+}
+
+@media only screen and (min-device-width: 767px) {
+		#tips ul li {
+			line-height: 25px;
+			margin:8px 0;
+		    font-size: 16px;
+		}
+}

@@ -1,0 +1,170 @@
+
+
+#booklist ul li{
+	position: relative;
+	width: 96%;
+	padding:0 2%;
+	margin: 10px 0 0 0;
+}
+.bookImg{
+	float: left;
+	position: relative;
+	width: 55%;
+	height: 200px;
+}
+.bookImg img{
+	width: 100%;
+	max-width: 190px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+}
+.bookInfor{
+	float: left;
+	width: 45%;
+	font-size: 12px;
+}.bookInfor p{
+	width: 98%;
+	padding-left: 2%;
+	margin: 3px 0;
+}
+.bintro{
+	margin: 20px 0;
+}.bookInfor button{
+	position: absolute;
+	right: 2%;
+	top: 10px;
+	width: 60px;
+	font-size: 12px;
+}.bookInfor button.abtnf{
+	position: absolute;
+	right: 2%;
+	top: 50px;
+}
+.bookInfor .bname{
+	color: #7BACD2;
+	font-size: 14px;
+}
+.btnDiv{
+	position: relative;
+	width: 96%;
+	padding: 0 2%;
+}
+
+#assessb,
+#bdetailsb{
+	position: relative;
+	width: 96%;
+	padding: 0 2%;
+	margin: 10px 0;
+}
+#assessb ul li,#bdetailsb ul li{
+	position: relative;
+	padding: 10px 0 5px 0;
+	color: #666;
+	border-bottom: 1.5px dotted #7BACD2;
+}#assessb ul li .assessInfor{
+	color: #7BACD2;
+	font-size: 12px;
+}#assessb ul li p .uTime{
+	float: right;
+	
+}#assessb ul li p .uGrade{
+	color: #Fa0000;
+	
+}
+#bdetailsb ul li p{
+	line-height: 15px;
+	font-size: 12px;
+}#bdetailsb ul li p span{
+	display: inline-block;
+	width: 70px;
+	text-align-last: justify;
+}#bdetailsb ul li a{
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+}
+
+
+
+/*评价弹窗*/
+
+#pingjiaForm ul li{
+	width: 96%;
+	margin: 10px auto;
+	line-height: 30px;
+	color: #666;
+	text-align:  center;
+}
+#pingjiaForm ul li span
+{
+	float: left;
+	display: inline-block;
+	width: 25%;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	font-size: 12px;
+}
+#pingjiaForm ul li input,#pingjiaForm ul li textarea
+{	
+	float: left;
+	display: inline-block;
+	width: 60%;
+	padding: 0 5px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #0E6986;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+#pingjiaForm ul li textarea
+{
+	height: 100px;
+	line-height: 30px;
+	resize: none;
+	outline:none;
+}
+#pingjiaForm ul li #submit
+{
+	float: none;
+	width: 48%;
+	height: 40px;
+	line-height:40px;
+	display: block;
+	margin: 20px auto;
+	background: #7bacd2;
+	color: #FFFFFF;
+	font-size: 14px;
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+@media only screen and (min-device-width: 767px) {
+		#pingjiaForm ul li span {
+		    font-size: 18px;
+		}
+		#pingjiaForm ul li input{
+			height: 40px;
+			line-height: 40px;
+		}
+		#pingjiaForm ul li input, #pingjiaForm ul li textarea {
+		    font-size: 16px;
+		}
+		#assessb ul li .assessInfor {
+		    font-size: 16px;
+		    line-height: 30px;
+		}
+		#assessb ul li .uAssess {
+		    font-size: 18px;
+		    line-height: 30px;
+		}
+}

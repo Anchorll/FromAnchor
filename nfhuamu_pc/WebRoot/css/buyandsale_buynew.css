@@ -1,0 +1,264 @@
+@CHARSET "UTF-8";
+.leftnavi>ul li:nth-child(3) li:nth-child(1) a{
+	color:#393;	
+}
+
+
+.right-content{
+	float:left;
+	width:950px;
+	background:#fff;
+	padding:0 0 50px 0;
+}
+.rnavi{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+	height:36px;
+	border-bottom:2px solid #393;
+	background:#eaf5ea;
+}
+.rnavi ul li{
+	position: relative;
+	float:left;
+	width:160px;
+	height:36px;
+	
+}
+
+.rnavi ul li a{
+	position: relative;
+	display:block;
+	width:160px;
+	height:36px;
+	color:#393;
+	line-height: 36px;
+	text-align: center;
+}.rnavi ul li:nth-child(2) a{
+	background:#393;
+	color:#fff;
+}
+.buyinfor{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+}.buyinfor form>ul>li{
+	position: relative;
+	width:910px;
+	margin:20px auto;
+}.buyinfor form>ul>li>span{
+	width:95px;
+	display: block;
+	line-height: 32px;
+	color:#333; 
+	text-align: right;
+}.buyinfor form>ul>li> .selectdiv select{
+	width:178px;
+	height:32px;
+	display: inline-block;
+	appearance:none;
+  	-moz-appearance:none;
+ 	-webkit-appearance:none;
+}
+select::-ms-expand { display: none; }
+.buyinfor form>ul>li> .selectdiv{
+	width:178px;
+	height:32px;
+	border:1px solid #ccc;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}.buyinfor form>ul>li> .selectdiv i{
+	position: absolute;
+	right:6px;
+	top:8px;
+	display: inline-block;
+	height: 32px;
+	width:20px;
+	font-size: 18px;
+	color:#ccc;
+	cursor: pointer;
+}.buyinfor form>ul .title input{
+	width:288px;
+	height:32px;
+	border:1px solid #ccc;
+	padding:0 10px;
+}
+
+
+.buyinfor form>ul .guige>a{
+	float:left;
+	width:138px;
+	height:30px;
+	border:1px solid #ccc;
+	background:#fff;
+	color:4c4c4c;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	margin:20px 0 0 95px;
+}
+.buyinfor form>ul .guige>ul{
+	width:698px;
+	float:right;
+	display:block;
+	position: relative;
+	margin:0 115px 0px 0;
+	border: 1px solid #ccc;
+	
+}
+.buyinfor form>ul .guige>ul>li{
+	position: relative;
+	width:100%;
+	height:42px;
+	border-bottom: 1px solid #ccc;
+}.buyinfor form>ul .guige>ul>li:last-child{
+	border:none;
+}.buyinfor form>ul .guige>ul>li>ul>li{
+	float:left;
+	color:#4c4c4c;
+	font-size: 14px;
+	line-height: 42px;
+	text-align: center;
+	min-width:14.2857%;
+}.buyinfor form>ul .guige>ul>li:first-child{
+	background:#e6e6e6;
+}.buyinfor form>ul .guige>ul>li>ul>li i{
+	color:#f00;
+}
+.buyinfor form>ul .guige>ul>li>ul>li p{
+	border-right:1px solid #ccc;
+	position: relative;
+}.buyinfor form>ul .guige>ul>li>ul>li:last-child p{
+	border-right:none;
+}.buyinfor form>ul .guige>ul>li>ul>li p input{
+	border:1px solid #ccc;
+	width:85%;
+	height:32px;
+	margin:4px auto;
+	text-align: center;
+}.buyinfor form>ul .guige>ul>li>ul>li .firstp{
+	border-right:1px solid #fff;
+}.buyinfor form>ul .guige>ul>li>ul>li:last-child .firstp{
+	border-right:none;
+}
+/* 新增规格的删除图片 */
+.buyinfor form>ul .guige .delimg{
+	position: absolute;
+	width:20px;
+	right:-35px;
+	top:0px;
+	padding:10px;
+	display: block;
+}
+.buyinfor form>ul .beizhu textarea{
+	width:678px;
+	height:148px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	color:#4c4c4c;
+	float:left;
+	padding:10px;
+	resize:none;
+}.buyinfor form>ul .lianxi ul li{
+	width:698px;
+	float:right;
+	height:30px;
+	font-size:14px;
+	color:#4c4c4c;
+	margin:0 115px 0px 0;
+	line-height: 30px;
+}.buyinfor form>ul .img img{
+	float:left;
+	width:100px;
+}.buyinfor form>ul .img .tipspan{
+	float:left;
+	font-size: 14px;
+	color:#808080;
+	display: block;
+	height:30px;
+	line-height: 30px;
+	width:600px;
+	text-align: left;
+	margin:0 0 0 20px;
+}.buyinfor form>ul .img a{
+	width:118px;
+	height:32px;
+	line-height: 32px;
+	display: block;
+	border-radius:5px;
+	background:#f8f4cd;
+	border:1px solid #ccc;
+	float:left;
+	font-size: 14px;
+	text-align: center;
+	margin:0 0 0 20px;
+}.buyinfor form>ul .img input{
+	width:118px;
+	height:32px;
+	line-height: 32px;
+	display: block;
+	border-radius:5px;
+	background:#f8f4cd;
+	border:1px solid #ccc;
+	float:left;
+	font-size: 14px;
+	text-align: center;
+	margin:0 0 0 -120px;
+	filter:alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+	-webkit-opacity:0;
+	-ms-opacity:0;
+}.buyinfor form>input{
+	width:200px;
+	height:36px;
+	line-height: 36px;
+	display: block;
+	border-radius:5px;
+	background:#393;
+	font-size: 16px;
+	color:#fff;
+	text-align: center;
+	margin:40px auto;
+}
+
+
+
+/* 单选按钮样式 */
+.butbox{
+ 	float:left;
+ 	margin:0px 0 0 0;
+ }
+  .butbox i{
+ 	margin:-2px 0 0 0;
+ }
+.demo-label{
+	margin:0px 12px 0 0;
+	display:block;
+}
+.demo-radio{
+	display:none
+}
+.demo-radioInput{
+	background-color:#c5e3c5;
+	border:1px solid  #393;
+	border-radius:100%;
+	display:inline-block;
+	height:14px;
+	vertical-align:middle;
+	width:14px;
+	line-height:1
+}
+.demo-radio:checked + .demo-radioInput:after{
+	background-color:#393;
+	border-radius:100%;
+	content:"";
+	display:inline-block;
+	height:8px;
+	margin:3px;
+	width:8px}
+.demo-checkbox.demo-radioInput,.demo-radio:checked + .demo-checkbox.demo-radioInput:after{
+	border-radius:0
+}/* 单选按钮样式 */
+

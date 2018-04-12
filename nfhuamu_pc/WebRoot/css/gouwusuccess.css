@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+.content{
+	position:relative;
+	width:100%;
+	min-width:1190px;
+	background:#f0f0f0;
+}
+.content .cinner{
+	position:relative;
+	width:1190px;
+	height:600px;
+	background:#fff;
+	margin:0 auto;
+	padding:0 0 70px 0;
+}
+
+.content .cinner .location{
+	position:relative;
+	width:1190px;
+	height:60px;
+	line-height:60px;
+	font-size:14px;
+	color:#666;
+	margin:0 auto;
+	background:#f0f0f0;
+}
+.content .schedule{
+	position:relative;
+	width:1190px;
+	height:80px;
+	margin:0 auto;
+	text-align:center;
+	padding:50px 0 0 0;
+	background:#fff;
+	
+}
+.content .schedule .out{
+	position:relative;
+	width:85%;
+	top:50%;
+	margin-top:-2px;
+	height:4px;
+	background:#cccccc;
+	margin:0 auto;
+
+}
+.content .schedule .out .in{
+	position:relative;
+	width:100%;
+	height:4px;
+	background:#339933;
+}
+
+.content .schedule ul li{
+	position:relative;
+	top:-4px;
+	float:left;
+	width:14.28%;
+	color:#4c4c4c;
+}
+.content .schedule ul li{
+	color:#339933;
+}
+
+.mengban{
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:10;
+	background:#000;
+	filter:alphy(opacity=50);
+	opacity:.5;
+	-moz-opacity:.5;
+	-ms-opacity:.5;
+}
+.tipdiv{
+	position: fixed;
+	width:730px;
+	top:50%;
+	left:50%;
+	margin:-25px 0 0 -365px;
+	height:51px;
+	text-align: center;
+	z-index:11;	
+	cursor: pointer;
+}
+.tipdiv img{
+	float:left;
+	margin: 0 5px 0 0;
+}.tipdiv span{
+	height:51px;
+	color:#f0f0f0;
+	font-size:18px;	
+	line-height: 51px;
+}.tipdiv span a{
+	color:#36c036;
+}

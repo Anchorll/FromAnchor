@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+.content .schedule .out .in{
+	position:relative;
+	width:83%;
+	height:4px;
+	background:#339933;
+}.content .schedule ul li:nth-child(5){
+	color:#393;
+}
+.order  {
+	border:none;
+}.order .addressdiv p{
+	height:45px;
+	line-height:45px;
+}
+.submitdiv input{
+	margin:10px 0px 0 0px;
+}
+.successtip{
+	position:relative;
+	wdith:1190px;
+	text-align: center;
+	padding:80px 0 60px 0;
+}
+.successtip img{
+	float:left;
+	margin:0 20px 0 350px;
+}
+.successtip h3,.successtip p ,.successtip .pspan {
+	width:600px;
+	display:block;
+	height:28px;
+	line-height:28px;
+	float:left;
+	text-align: left;
+}
+.successtip h3{
+	font-size:24px;
+	color:#393;
+	height:50px;
+	line-height:50px;
+	margin:10px 0 0 0;
+}
+.successtip p{
+	font-size:18px;
+	color:#4c4c4c;
+}.successtip p span{
+	color:#f8a80e;
+}
+.successtip .pspan {
+	font-size:16px;
+	color:#808080;
+}
+.successtip .pspan a{
+	color:#393;
+}
+.submitdiv a{
+	height:36px;
+	border-radius:5px;
+	background:#393;
+	width:160px;
+	color:#fff;
+	line-height: 36px;
+	text-align: center;
+}
+.mengban{
+	position: fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:rgba(0,0,0,0.5);
+	z-index: 12;
+	
+	display: none;
+}.mengban .wechat{
+	position: relative;
+	width:220px;
+	height:410px;
+	background-image:url(../img/wechatphone.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin:150px auto 40px auto;
+	text-align: center;
+	
+}.mengban .wechat #close{
+	float:right;width:20px;height:20px;
+	margin:0 -30px 0 0;
+}.mengban .wechat #erweima{
+	width:120px;height:120px;
+	margin:0 auto;
+	padding:107px 0 0 0;
+}.mengban .wechat p{
+	font-size: 30px;
+	color:#393;
+	font-weight: bold;
+}
+.mengban>.diva{
+	width:300px;
+	heihgt:40px;
+	margin:0 auto;
+	
+}.mengban>.diva a{
+	float:left;
+	display: block;
+	width:140px;
+	heihgt:40px;
+	border-radius:5px;
+	background:#393;
+	text-align: center;
+	line-height: 40px;
+	margin:0 5px;
+	
+}.mengban>.diva a:nth-child(2){
+	background:#b3b3b3;
+	
+}

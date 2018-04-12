@@ -1,0 +1,300 @@
+@CHARSET "UTF-8";
+
+.leftnavi>ul li:first-child li:nth-child(6) a{
+	color:#393;	
+}
+
+
+.right-content{
+	float:left;
+	width:950px;
+	background:#fff;
+	padding:0 0 50px 0;
+}
+.rnavi{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+	height:36px;
+	border-bottom:2px solid #393;
+	background:#eaf5ea;
+}
+.rnavi ul li{
+	position: relative;
+	float:left;
+	width:160px;
+	height:36px;
+	
+}
+
+.rnavi ul li a{
+	position: relative;
+	display:block;
+	width:160px;
+	height:36px;
+	color:#393;
+	line-height: 36px;
+	text-align: center;
+}.rnavi ul li:nth-child(1) a{
+	background:#393;
+	color:#fff;
+}
+.rnavi>a{
+	position: relative;
+	float:right;
+	display:block;
+	width:80px;
+	text-align: center;
+	color:#393;
+	height:36px;
+	font-size: 14px;
+	line-height: 36px;
+}
+.rnavi>a:hover{
+	color:#393;
+}
+.rnavi .dela, .rnavi .choall{
+	width:60px;
+	color:#808080;
+	display: none;
+}
+.procol,.storecol,.oldpro{
+	position: relative;
+	width:910px;
+	margin: 0 auto;
+	
+}
+
+.procol ul li{
+	float:left;
+	position: relative;
+	width:270px;
+	height:270px;
+	margin: 30px 30px 0 0px;
+}
+.procol ul li:nth-child(3n-2){
+	margin: 30px 30px 0 20px;
+}.procol ul li:nth-child(3n){
+	margin: 30px 0px 0 0px;
+}
+.procol ul li a{
+	display:block;
+	position: relative;
+	width:270px;
+	height:270px;
+}
+.procol ul li a:hover{
+	box-shadow:0 0 50px #a0a0a0;
+}
+
+
+.procol>ul>li>a img{
+	width:270px;
+	height:270px;
+}.procol>ul>li>a p{
+	position:absolute;
+	bottom:0px;
+	width:270px;
+	height:60px;
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+}.procol>ul>li>a p span{
+	display:block;
+	margin:10px 0 0 0;
+}.procol>ul>li>a p span:last-child{
+	color:#f00;
+	margin:5px 0 0 0
+}
+.procol>ul>li>a input{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:270px;
+	height:270px;
+	filter:alpha(opacity=0);
+	opacity: 0;
+	-webkit-opacity:0;
+	-moz-opacity: 0;
+}
+.procol>ul>li>a .mengban{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:270px;
+	height:270px;
+	background-color:rgba(224,224,224,0.5);
+	/* filter:alpha(opacity=50);
+	opacity: 0.5;
+	-webkit-opacity:0.5;
+	-moz-opacity: 0.5; */
+	background-image:url(../img/account_gou.png);
+	background-repeat: no-repeat;
+	background-position: -190px 105px;/*110px 105px  */
+	
+	display:none;
+}
+
+.pagediv{
+	position:relative;
+	height:22px;
+	/* width:100%; */
+	text-align: center;
+	margin:10px auto 30px auto;
+	padding:40px 0 10px 0;
+}
+
+.pagediv ul li{
+	display:inline-block;
+	psition:relative;
+	height:22px;
+	width:22px;
+	margin:0 -1.5px 0 -1.5px;
+	line-height: 22px;
+	font-size:14px;
+	color:#666;
+	
+}.pagediv ul li:first-child , .pagediv ul .nextpage , .pagediv ul li:first-child a , .pagediv ul .nextpage a{
+	width:50px;
+	background:#e6e6e6;
+}.pagediv ul li a{
+	display:block;
+	width:22px;
+	height:22px;
+	text-align:center;
+	line-height: 22px;
+	font-size:14px;
+	color:#666;
+	border:1px solid #fff;
+}.pagediv ul li a:hover{
+	border:1px solid #dbdbdb;
+	background:#e6f3e6;
+	color:#393;
+}
+.pagediv ul li input{
+	width:50px;
+	height:22px;
+	border:1px solid #dbdbdb;
+	line-height: 22px;
+	font-size:14px;
+	color:#666;
+	text-align: center;
+	
+} .pagediv ul .jumppage{
+	width:175px;
+	
+} .pagediv ul .conj{
+	width:40px;
+	background:#fff;
+	
+} .pagediv ul .conj a{
+	width:38px;
+	height:22px;
+	border:1px solid #dbdbdb;
+} 
+
+.storecol>ul>li{
+	float:left;
+	position: relative;
+	width:258px;
+	height:278px;
+	margin: 30px 20px 0 20px;
+	border:1px solid #393;
+}.storecol>ul>li ul>li{
+	position: relative;
+	width:240px;
+	margin: 5px auto;
+	height:25px;
+	
+}.storecol>ul>li ul>li:first-child span{
+	color:#393;
+}
+.storecol>ul>li ul>li:nth-child(2) .greenspan{
+	color:#393;font-size: 14px;
+}
+.storecol>ul>li ul>li:first-child {
+	margin:30px auto 0 auto;
+}
+.storecol>ul>li ul>li img{
+	margin:0 5px;
+}.storecol>ul>li ul>li .grayspan{
+	color:#808080;
+	font-size:14px;
+	margin:0 10px 0 0;
+}
+
+.storecol>ul>li a{
+	display:block;
+	position: relative;
+	width:258px;
+	height:277px;
+	padding:1px 0 0 0;	
+}
+.storecol>ul>li a:hover{
+	box-shadow:0 0 50px #a0a0a0;
+}
+.storecol>ul>li p{
+	position: relative;
+	width:98px;
+	height:30px;
+	margin:20px auto;
+	border:1px solid #393;
+	border-radius:5px;
+	color:#393;
+	text-align: center;
+	line-height: 30px;
+	
+}
+
+
+.storecol>ul>li>a input{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:258px;
+	height:278px;
+	filter:alpha(opacity=0);
+	opacity: 0;
+	-webkit-opacity:0;
+	-moz-opacity: 0;
+}
+.storecol>ul>li>a .mengban{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:258px;
+	height:278px;
+	background-color:rgba(100,100,100,0.5);
+	/* filter:alpha(opacity=50);
+	opacity: 0.5;
+	-webkit-opacity:0.5;
+	-moz-opacity: 0.5; */
+	background-image:url(../img/account_gou.png);
+	background-repeat: no-repeat;
+	background-position: -195px 110px;/*110px 105px  */
+	
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

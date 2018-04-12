@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+.leftnavi>ul li:first-child li:nth-child(3) a{
+	color:#393;	
+}
+.right-content{
+	float:left;
+	width:950px;
+	background:#fff;
+	padding:0 0 50px 0;
+}
+.rnavi{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+	height:36px;
+	border-bottom:2px solid #393;
+	background:#eaf5ea;
+}
+.rnavi ul li{
+	position: relative;
+	float:left;
+	width:160px;
+	height:36px;
+	
+}
+.rnavi ul li:hover{
+	background:#393;
+	color:#fff;
+}
+.rnavi ul li:hover a{
+	color:#fff;
+}
+
+.rnavi ul li a{
+	position: relative;
+	display:block;
+	width:160px;
+	height:36px;
+	color:#393;
+	line-height: 36px;
+	text-align: center;
+}.rnavi ul li:nth-child(2) a{
+	background:#393;
+	color:#fff;
+}
+
+
+/* 单选按钮样式 */
+.butbox{
+ 	float:left;
+ 	margin:0px 0 0 0;
+ }
+  .butbox i{
+ 	margin:-2px 0 0 0;
+ }
+.demo-label{
+	margin:0px 12px 0 0;
+	display:block;
+}
+.demo-radio{
+	display:none
+}
+.demo-radioInput{
+	background-color:#c5e3c5;
+	border:1px solid  #393;
+	border-radius:100%;
+	display:inline-block;
+	height:14px;
+	vertical-align:middle;
+	width:14px;
+	line-height:1
+}
+.demo-radio:checked + .demo-radioInput:after{
+	background-color:#393;
+	border-radius:100%;
+	content:"";
+	display:inline-block;
+	height:8px;
+	margin:3px;
+	width:8px}
+.demo-checkbox.demo-radioInput,.demo-radio:checked + .demo-checkbox.demo-radioInput:after{
+	border-radius:0
+}/* 单选按钮样式 */
+.content{
+	position: relative;
+	width:910px;
+	margin:40px auto;
+}.content ul li{
+	position: relative;
+	heihgt:34px;
+	line-height:34px;
+	margin:20px auto;
+}.content ul li span{
+	float:left;
+	width:120px;
+	text-align: right;
+}.content ul li input{
+	width:290px;
+	height:32px;
+	padding:0 10px;
+	border:1px solid #ccc;
+}.content form>input{
+	width:200px;
+	height:36px;
+	border-radius:5px;
+	background:#393;
+	color:#fff;
+	display: block;
+	margin:40px auto;
+}
+#myEditor{
+	margin:0 0 0 40px;
+}

@@ -1,0 +1,179 @@
+@CHARSET "UTF-8";
+.content .schedule .out .in{
+	position:relative;
+	width:49.8%;
+	height:4px;
+	background:#339933;
+}.content .schedule ul li:nth-child(3){
+	color:#393;
+}
+
+.order  .infordiv .priceinfor ul li{
+	float:left;
+	position:relative;
+	width:33.333%;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	color:#808080;
+}
+.order  .infordiv .priceinfor ul li{
+	float:left;
+	position:relative;
+	width:33.333%;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	color:#808080;
+}.order  .infordiv .priceinfor ul li:nth-child(4){
+	text-align: center;
+}
+.order .addressdiv{
+	position:relative;
+	width:1150px;
+	padding:0 0 20px 0;
+	margin:0 0 20px 0;
+	height:auto;
+	background:#eaf5ea;
+}
+.order .addressdiv p{
+	position:relative;
+	width:1110px;
+	margin:0 auto;
+	height:34px;
+	line-height:34px;
+	font-size:18px;
+	color:#393;
+	border-bottom: 1px solid #dbdbdb;
+	font-weight: 600;
+}.order .addressdiv a{
+	float:right;
+	font-size:14px;
+	color:#808080;
+}
+.order .addressdiv ul li {
+	position:relative;
+	width:1110px;
+	margin:0 auto;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#4c4c4c;
+}
+.order .addressdiv ul li:first-child {
+	height:30px;
+	padding:10px 0 0 0;
+	border-top:1px solid #fff;
+}
+.order .addressdiv ul li span{
+	float:left;
+	font-size:14px;
+	color:#4c4c4c;
+	margin:0 50px 0 0px;
+}
+.order .addressdiv ul li .sp1{
+	color:#1a1a1a;
+	margin:0 20px 0 0px;
+}.order .addressdiv ul li .sp2{
+	color:#808080;
+	margin:0 20px 0 0px;
+}
+/* 单选按钮样式 */
+.butbox{
+ 	float:left;
+ 	margin:0px 0 0 0;
+ }
+  .butbox i{
+ 	margin:-2px 0 0 0;
+ }
+.demo-label{
+	margin:0px 12px 0 0;
+	display:block;
+}
+.demo-radio{
+	display:none
+}
+.demo-radioInput{
+	background-color:#c5e3c5;
+	border:1px solid  #393;
+	border-radius:100%;
+	display:inline-block;
+	height:14px;
+	vertical-align:middle;
+	width:14px;
+	line-height:1
+}
+.demo-radio:checked + .demo-radioInput:after{
+	background-color:#393;
+	border-radius:100%;
+	content:"";
+	display:inline-block;
+	height:8px;
+	margin:3px;
+	width:8px}
+.demo-checkbox.demo-radioInput,.demo-radio:checked + .demo-checkbox.demo-radioInput:after{
+	border-radius:0
+}/* 单选按钮样式 */
+
+
+.leavemes{
+	position:relative;
+	width:1110px;
+	margin:0  auto;
+}.leavemes p{
+	position:relative;
+	width:1110px;
+	margin:0 auto;
+	height:34px;
+	line-height:34px;
+	font-size:18px;
+	color:#393;
+}
+.leavemes textarea{
+	position:relative;
+	width:678px;
+	height:58px;
+	padding:10px;
+	border:1px solid #393;
+	margin:5px 0 20px 0;
+}
+.submitdiv{
+	position:relative;
+	width:1190px;
+	text-align: center;
+}.submitdiv p{
+	position:relative;
+	width:1190px;
+	height:45px;
+	line-height:45px;
+	color:#1a1a1as;
+	text-align: center;
+}.submitdiv b{
+	color:#ff3333;
+	font-size:28px;
+}
+.submitdiv b{
+	color:#ff3333;
+	font-size:28px;
+}
+.submitdiv input{
+	width:160px;
+	height:40px;
+	border-radius:5px;
+	background:#339933;
+	color:#fff;
+	font-size:18px;
+	margin:10px 40px 0 215px;
+}
+.submitdiv a{
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	color:#393;
+	font-size:14px;
+}
+.submitdiv img{
+	float:left;
+	margin:11px 3px 0 0;
+}
+

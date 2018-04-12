@@ -1,0 +1,245 @@
+@CHARSET "UTF-8";
+.leftnavi>ul li:first-child li:nth-child(3) a{
+	color:#393;	
+}
+
+
+.right-content{
+	float:left;
+	width:950px;
+	background:#fff;
+	padding:0 0 50px 0;
+}
+.rnavi{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+	height:36px;
+	border-bottom:2px solid #393;
+	background:#eaf5ea;
+}
+.rnavi ul li{
+	position: relative;
+	float:left;
+	width:160px;
+	height:36px;
+	
+}
+.rnavi ul li:hover{
+	background:#393;
+	color:#fff;
+}
+.rnavi ul li:hover a{
+	color:#fff;
+}
+
+.rnavi ul li a{
+	position: relative;
+	display:block;
+	width:160px;
+	height:36px;
+	color:#393;
+	line-height: 36px;
+	text-align: center;
+}.rnavi ul li:nth-child(2) a{
+	background:#393;
+	color:#fff;
+}
+
+.identity{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+}
+.identity .infor{
+	position: relative;
+	width:450px;
+	margin:15px 0 0 0;
+}.identity .infor ul li{
+	position: relative;
+	width:395px;
+	margin:25px 0 0 15px;
+	height:34px;
+	line-height: 34px;
+}.identity .infor ul li span{
+	position: relative;
+	width:135px;
+	display: block;
+	line-height: 34px;
+	text-align: right;
+	color:#333;
+}.identity .infor ul li input{
+	float:right;
+	position: relative;
+	width:228px;
+	padding:0 10px;
+	display: block;
+	line-height: 32px;
+	height: 32px;
+	color:#333;
+	font-size: 14px;
+	color:#333;
+	border:1px solid #ccc;
+}.identity .imginfor{
+	position: relative;
+	width:458px;
+	border-left:1px solid #ccc;
+	margin:35px 0 0 0;
+}.identity .imginfor>p{
+	position: relative;
+	width:400px;
+	margin:5px auto;
+	font-size: 14px;
+	color:#333;
+	line-height: 20px;
+}.identity .imginfor>span{
+	display:block;
+	position: relative;
+	width:400px;
+	margin:0px auto;
+}.identity .imginfor span{
+	font-size: 14px;
+	color:#f00;
+}.identity .imginfor .imgdiv{
+	position: relative;
+	width:300px;
+	
+	margin:0 auto;
+	border-bottom:1px dashed #ccc;
+}
+.identity .imginfor .imgdiv span{
+	position: relative;
+	width:300px;
+	text-align: center;
+	display: block;
+	margin:20px 0 0 0;
+}
+.identity .imginfor .imgdiv img{
+	position: relative;
+	width:240px;
+	height:144px;
+	margin:5px 0 20px 30px;
+	border-radius:20px;
+}.identity .imginfor .imgdiv input{
+	position:absolute;
+	width:240px;
+	height:144px;
+	border-radius:20px;
+	top:26px;
+	left:31px;
+	filter:alphy(opacity=0);
+	opacity:0;
+	-webkit-opacity:0;
+	-moz-opacity:0;
+	
+}.identity .imginfor .imgdiv label{
+	position:absolute;
+	display:block;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	top:60px;
+	left:115px;
+	background:rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	color:#fff;
+}.identity .imginfor .imgdiv:last-child{
+	border:none;
+}.identity form>input{
+	display: block;
+	position: relative;
+	width:200px;
+	height:36px;
+	background:#393;
+	color:#fff;
+	margin:40px auto 0 auto;
+	border-radius:5px;
+}
+
+/* 信息提交后出现的提示页面 样式 */
+.submit-success{
+	position: relative;
+	width:500px;
+	height:140px;
+	margin:100px auto 0 auto;
+	text-align: center;
+	display: block;
+}.submit-success p{
+	color:#333;
+	line-height: 25px;
+}.submit-success .submitagain{
+	color:#fff;
+	width:200px;
+	height:36px;
+	display:block;
+	margin:40px auto;
+	position:relative;
+	line-height: 36px;
+	border-radius:5px;
+	background:#393;
+}
+/*验证成功提示  */
+.success{
+	position: relative;
+	width:500px;
+	height:320px;
+	margin:50px auto;
+	text-align: center;
+}
+.success p{
+	position:relative;
+	border-bottom: 1px dashed  #ccc;
+	height:64px;
+	line-height: 64px;
+	color: #333;
+	padding:0 140px;
+	
+}.success p img{
+	width:30px;
+	height:30px;
+	margin: 15px 0 ;
+}.success ul li{
+	width:400px;
+	height:34px;
+	margin:0px auto 30px auto;
+	position: relative;
+}
+.success ul li:FIRST-CHILD{
+	margin:30px auto 30px auto;
+}.success ul li input{
+	width:400px;
+	height:34px;
+	margin:0px auto 30px auto;
+	position: relative;
+}.success ul li input{
+	width:240px;
+	height:32px;
+	position: relative;
+	border:1px solid #ccc;
+	background:#f0f0f0;
+	padding:0 10px
+}.success ul li span{
+	display: block;
+	width:135px;
+	line-height:34px;
+	color:#333;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

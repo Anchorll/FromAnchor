@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+.leftnavi>ul li:nth-child(6) li:nth-child(3) a{
+	color:#393;	
+}
+
+
+.right-content{
+	float:left;
+	width:950px;
+	background:#fff;
+	padding:0 0 50px 0;
+}
+.rnavi{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+	height:36px;
+	border-bottom:2px solid #393;
+	background:#eaf5ea;
+}
+.rnavi ul li{
+	position: relative;
+	float:left;
+	width:160px;
+	height:36px;
+	
+}
+
+.rnavi ul li a{
+	position: relative;
+	display:block;
+	width:160px;
+	height:36px;
+	color:#393;
+	line-height: 36px;
+	text-align: center;
+}.rnavi ul li:nth-child(1) a{
+	background:#393;
+	color:#fff;
+}
+/* 
+
+
+ */
+.upbanner{
+	position: relative;
+	width:840px;
+	margin:20px auto 0 auto;
+}.upbanner ul li{
+	position: relative;
+	height:52px;
+	line-height: 52px;
+	color:#808080;
+}
+.upbanner ul li .lspan{
+	float:left;
+	width:125px;
+	text-align: right;
+	color:#1a1a1a;
+	margin:0 10px 0 0;
+}.upbanner ul li input[type="text"]{
+	width:420px;
+	height:36px;
+	padding:0 10px;
+	border:1px solid #393;
+}
+.upbanner ul li input[type="file"],.upbanner ul li .upa{
+	position: absolute;
+	left:590px;
+	top:8px;
+	width:120px;
+	height:36px;
+}
+.upbanner ul li input[type="file"]{
+	filter:alpha(opacity=0);
+	opacity:0;
+	-mos-opacity:0;
+	-webkit-opacity:0;
+	-mz-opacity:0;
+}
+.upbanner ul li .upa{
+	border:1px solid #393;
+	border-radius:5px;
+	text-align: center;
+	line-height: 36px;
+	background: -moz-linear-gradient(top, #f1fff1 0%, #cbf5cb 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1fff1), color-stop(100%,#cbf5cb)); 
+	background: -webkit-linear-gradient(top, #f1fff1 0%,#cbf5cb 100%); 
+	background: -o-linear-gradient(top, #f1fff1 0%,#cbf5cb 100%); 
+	background: -ms-linear-gradient(top, #f1fff1 0%,#cbf5cb 100%); 
+	background: linear-gradient(to bottom, #f1fff1 0%,#cbf5cb 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1fff1', endColorstr='#cbf5cb',GradientType=0 ); 
+	cursor:pointer;
+}.upbanner ul li .ra{
+	float:right;
+	margin:0 9px 0 9px;
+}
+.upbanner ul li .rfa{
+	margin:0 35px 0 9px;
+}.upbanner ul li a{
+	color:#393;
+}
+#save{
+	display: block;
+	width:100px;
+	height:40px;
+	margin:20px auto;
+	border-radius:4px;
+	color:#fff;
+	font-size:16px;
+	background:#393;
+	cursor:pointer;
+}
+
+.mengban{
+	position: fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:rgba(0,0,0,0.5);
+	z-index: 20;
+	display: none;
+}.mengban img{
+	position: relative;
+	display:block;
+	width:1190px;
+	margin:0 auto;
+	
+}
+.

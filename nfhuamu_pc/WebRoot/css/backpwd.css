@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+.content .cinner .llogin ul{
+	position: relative;
+	width:425px;
+	height:255px;
+	display:block;
+	margin:50px 0 0 80px;
+}
+.content .cinner .llogin ul li:nth-child(6) , .content .cinner .llogin ul li:nth-child(8){
+	height:15px;
+	margin:3px 0 32px 0;
+}
+.content .cinner .llogin ul li:nth-child(2) span {
+    margin: 0px 190px 0px 0;
+}
+.content .cinner .llogin ul li:nth-child(4) span {
+    margin: 0px 149px 0px 0;
+}
+.content .cinner .llogin ul li:nth-child(6) span {
+    margin: 0px 218px 0px 0;
+}
+.content .cinner .llogin ul li:nth-child(8) span {
+    margin: 0px 190px 0px 0;
+}
+.content .cinner .llogin ul li:nth-child(1) .inputdiv input {
+    width:180px;
+    float:right;
+    margin:5px 10px 0 0
+}
+.content .cinner .llogin ul li:nth-child(1) .inputdiv a  {
+    float:right;
+    width:80px;
+    margin:1px 0 0 0;
+    height:28px;
+    line-height:28px;
+    text-align: center;
+    border-left:1px solid #dbdbdb;
+}
+.content .cinner .llogin ul li:nth-child(3) .inputdiv i  {
+    margin:2px 0 0 10px;
+}

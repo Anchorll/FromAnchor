@@ -1,0 +1,327 @@
+@CHARSET "UTF-8";
+.content{
+	position:relative;
+	width:100%;
+	min-width:1190px;
+	background:#f0f0f0;
+	margin:1px 0 0 0;
+}
+.content .cinner{
+	position:relative;
+	width:1190px;
+	margin:0 auto;
+}
+.content .cinner .location{
+	position:relative;
+	width:1190px;
+	height:60px;
+	line-height:60px;
+	font-size:14px;
+	color:#666;
+	margin:0 auto;
+}
+.leibie{
+	position:relative;
+	width:100%;
+	height:auto;
+	padding:10px 0px 40px 0px;
+	background:#fff;
+}
+.leibie .outul{
+	position:relative;
+	width:1150px;
+	margin:0 auto;
+}
+.leibie ul>li{
+	position:relative;
+	height:68px;
+	width:100%;
+	border-bottom: 1px solid #add6ad;
+}
+
+.leibie ul li ul li{
+	float:left;
+	width:auto;
+	height:30px;
+	line-height:30px;
+	position:relative;
+	border:none;
+	font-size:14px;
+	border:1px solid #fff;
+	margin:19px 0 0 0;
+}
+.leibie ul li ul li a{
+	display:block;
+	position:relative;
+	width:auto;
+	height:28px;
+	line-height:28px;
+	border:1px solid #fff;
+	padding:0 15px;
+	margin:0px 0 0 0；
+}
+.leibie ul li ul li a label{
+	position:absolute;
+	display: block;
+	width:10px;
+	height:10px;
+	background-image:url(../img/sanjiao.png);
+	top:0;
+	left:100%;
+	margin:0 0 0 -10px;
+	display:none;
+}
+.leibie ul li ul li:hover{
+	border:1px solid #393;
+}
+.leibie ul li ul li:first-child a{
+	width:60px;
+	padding:0px;
+	text-align: left;
+	
+}
+.leibie ul li:nth-child(2) ul li{
+	margin:19px 0 19px 0px;
+}
+.leibie ul li:nth-child(2) ul li:first-child a{
+	padding:0 15px;
+}
+.leibie ul li:nth-child(2) ul li:first-child {
+	padding:0;
+	margin:19px 0 0 63px;
+}
+.leibie ul .shumulei{
+	min-height:193px;
+	height:auto;
+	padding:0 0 20px 0;
+}
+.leibie ul li .namechoice{
+	position:relative;
+	width:1110px;
+	height:98px;
+	border:1px dashed #dbdbdb;
+	margin:0 auto;
+	overflow: hidden;
+}
+.leibie ul li .namechoice .namechinner{
+	float:left;
+	margin:0 0 0 55px;
+	position:relative;
+	width:960px;
+	height:98px;
+	
+}
+.leibie ul li .namechoice .morea{
+	height:45px;
+	line-height: 45px;
+}
+.leibie ul li .namechoice .namechinner span{
+	display:blcok;
+	float:left;
+	width:auto;
+	padding:0 15px;
+	height:40px;
+	font-size:14px;
+	color:#1a1a1a;
+	line-height: 40px;
+	margin:5px 0 0 0;
+}.leibie ul li .namechoice .namechinner span:hover{
+	color:#393;
+}
+
+.leibie ul li .morea{
+	float:right;
+	color:#393;
+	font-size: 14px;
+	margin:0 20px 0 0;
+}
+.leibie ul li:nth-child(3) .morea{
+	position:absolute;
+	left:100%;
+	display:block;
+	width:80px;
+	margin:0 0 0 -80px;
+	top:25px;
+}
+.leibie .outul>li:nth-child(3) {
+	width:1070px;
+	padding:0 80px 0 0;
+	overflow: hidden;
+}
+.products{
+	position:relative;
+	width:100%;
+	background:#fff;
+	margin:20px 0 0 0;
+}
+.products .paixu{
+	position:relative;
+	width:100%;
+	height:37px;
+	background:#eaf5ea;
+	border-bottom: 3px solid #8ec78e;
+}
+.products .paixu ul li{
+	position:relative;
+	float:right;
+	width:108px;
+	height:37px;
+	line-height: 37px;
+}.products .paixu ul li a{
+	display:block;
+	position:relative;
+	width:108px;
+	height:37px;
+	line-height: 37px;
+	text-align: center;
+	font-size:14px;
+	color:#1a1a1a;
+}
+.products .paixu ul li a .downlabel{
+	display:block;
+	position: absolute;
+	border:6px solid transparent;
+	border-top-color:#999;
+	bottom: 6px;
+	left:100%;
+	margin:0 0 0 -20px;
+}
+.products .paixu ul li a .uplabel{
+	display:block;
+	position: absolute;
+	border:6px solid transparent;
+	border-bottom-color:#999;
+	top: 6px;
+	left:100%;
+	margin:0 0 0 -20px;
+}
+.products .paixu ul li:hover{
+	background:#d7ecd7;
+}
+.products .pdiv{
+	width:1150px;
+	position:relative;
+	margin:20px auto;
+}
+.products .pdiv>ul li{
+	float:left;
+	width:268px;
+	height:348px;
+	margin:0 21px 20px 0;
+	border:1px solid #fff;
+}
+.products .pdiv>ul li a{
+	display:block;
+	width:268px;
+	height:348px;
+	position: relative;
+}
+.products .pdiv>ul li a img{
+	width:268px;
+	height:268px;
+	position: relative;
+}
+.products .pdiv>ul li a .wenzi{
+	width:268px;
+	height:80px;
+	position: relative;
+}
+.products .pdiv>ul li a .wenzi p{
+	width:200px;
+	float:left;
+	height:25px;
+	line-height: 25px;
+	font-size:14px;
+	color:#1a1a1a;
+	margin:0 0 0 20px;
+}
+.products .pdiv>ul li a .wenzi p span{
+	display:block;
+	float:left;
+}
+.products .pdiv>ul li a .wenzi p img{
+	float:left;
+	width:20px;
+	height:20px;
+	margin:2px 0 0 5px;
+}
+.products .pdiv>ul li a .wenzi p:last-child{
+	color:#f00;
+}
+.products .pdiv>ul li:nth-child(4n){
+	margin:0 0px 20px 0;
+}
+.products .pdiv>ul li:hover{
+	border:1px solid #393;
+}
+
+.pagediv{
+	position:relative;
+	height:22px;
+	width:100%;
+	text-align: center;
+	margin:30px auto 30px auto;
+	padding:0 0 50px 0;
+}
+/* .pagediv ul{
+	display:block;
+	text-align: center;
+	margin:0 auto;
+	width:540px;
+	
+} */
+.pagediv ul li{
+	display:inline-block;
+	psition:relative;
+	height:22px;
+	width:22px;
+	/* margin:0 2px 0 2px; */
+	line-height: 22px;
+	font-size:14px;
+	color:#666;
+	
+}.pagediv ul li:first-child , .pagediv ul .nextpage , .pagediv ul li:first-child a , .pagediv ul .nextpage a{
+	width:50px;
+	background:#e6e6e6;
+}.pagediv ul li a{
+	display:block;
+	width:22px;
+	height:22px;
+	text-align:center;
+	line-height: 22px;
+	font-size:14px;
+	color:#666;
+	border:1px solid #fff;
+}.pagediv ul li a:hover{
+	border:1px solid #dbdbdb;
+	background:#e6f3e6;
+	color:#393;
+}
+.pagediv ul li input{
+	width:50px;
+	height:22px;
+	border:1px solid #dbdbdb;
+	line-height: 22px;
+	font-size:14px;
+	color:#666;
+	text-align: center;
+	
+} .pagediv ul .jumppage{
+	width:175px;
+	
+} .pagediv ul .conj{
+	width:40px;
+	background:#fff;
+	
+} .pagediv ul .conj a{
+	width:38px;
+	height:22px;
+	border:1px solid #dbdbdb;
+} 
+
+
+
+
+
+
+

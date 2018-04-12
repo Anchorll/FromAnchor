@@ -1,0 +1,109 @@
+.navicontent {
+	position:relative;
+	width:1190px;
+	margin:0 auto;
+}
+
+.navicontent .location{
+	position:relative;
+	width:1190px;
+	height:60px;
+	line-height:60px;
+	font-size:14px;
+	color:#666;
+	margin:0 auto;
+}
+.leftnavi{
+	position:relative;
+	float:left;
+	width:220px;
+	background:#e5ebe5;
+	padding:0 0 50px 0px;
+	min-height:800px;
+	
+}.leftnavi p{
+	position:relative;
+	width:200px;
+	height:68px;
+	margin:0 20px 30px 20px;
+	border-bottom: 1px solid #339933;
+	text-align: center;
+	line-height: 68px;
+	color:#339933;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.leftnavi .usercenterul li{
+	width:200px;
+	margin:0 auto 12px auto;
+	position: relative;
+}.leftnavi .usercenterul li>span{
+	display:block;
+	width:160px;
+	text-align:left;
+	padding:0 20px 0 20px;
+	position: relative;
+	line-height: 34px;
+	border:1px solid #393;
+	border-radius:3px;
+	color:#393;
+	background: -moz-linear-gradient(top, #f1fff1 0%, #cbf5cb 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1fff1), color-stop(100%,#cbf5cb)); 
+	background: -webkit-linear-gradient(top, #f1fff1 0%,#cbf5cb 100%); 
+	background: -o-linear-gradient(top, #f1fff1 0%,#cbf5cb 100%); 
+	background: -ms-linear-gradient(top, #f1fff1 0%,#cbf5cb 100%); 
+	background: linear-gradient(to bottom, #f1fff1 0%,#cbf5cb 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1fff1', endColorstr='#cbf5cb',GradientType=0 ); 
+	cursor:pointer;
+}.leftnavi .usercenterul li>span img{
+	float:right;
+	margin:12px 0 0 0 ;
+	-webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+.leftnavi .usercenterul li>ul>li:last-child{
+	margin:0 0 38px 0;
+}
+.leftnavi .usercenterul li>ul>li {
+	position: relative;
+	display: none;
+	
+}
+.leftnavi .usercenterul li>ul>li a{
+	display: block;
+	width:160px;
+	padding:0 20px 0 20px;
+	height:40px;
+	border-bottom:1px solid #393;
+	text-align: left;
+	line-height: 40px;
+	color:#333;
+	
+}
+.leftnavi .usercenterul li>ul>li a:hover{
+	color:#393;
+	
+}
+
+.leftnavi .usercenterul li>ul>li a .tipspan{
+	display: block;
+	float:right;
+	color:#393;
+}.leftnavi .usercenterul li>ul>li a .mes{
+	color:#f00;
+}
+
+#addp{
+	position: absolute;
+	right:0px;
+	top:0px;
+	width:40px;
+	display: block;
+}
+
+
+

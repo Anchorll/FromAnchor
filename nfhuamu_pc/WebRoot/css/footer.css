@@ -1,0 +1,115 @@
+/*底部css*/
+
+.footer{
+	position: relative;
+	width: 100%;
+	min-width:1190px;
+	height: 504px;
+	background:#fff;
+	text-align: center;
+	margin:100px 0 0 0;
+	padding:1px 0 0 0;
+}
+.footer .upul{
+	display: block;
+	width:1190px;
+	height: 220px;
+	margin:00px auto;
+}
+.footer .upul li{
+	float:left;
+	height: 140px;
+	position: relative;
+	width:19.9%;
+	text-align: center;
+	border-right: 1px solid #F5F5F5 ;
+	margin:40px 0px 40px 0 ;
+}
+.footer .upul li:last-child{
+	border-right: none;
+}.footer .upul li p{
+	float:left;
+	margin:0 0 0 80px;
+	font-size: 20px;
+	color: #666;
+}
+.footer .upul li a{
+	float:left;
+	margin:0 0 0 80px;
+	font-size: 14px;
+	color: #666;
+	line-height: 25px;
+}.footer .upul li img{
+	width:40px;
+	position: absolute;
+	top:-10px;
+	left:36px;
+}.footer .mediul{
+	display: block;
+	width:1190px;
+	height: 180px;
+	margin:0px auto;
+	text-align: center;
+	border-bottom: 1px solid #dbdbdb;
+}.footer .mediul li{
+	float:left;
+	width:145px;
+	overflow: hidden;
+	height: 180px;
+	margin: 0 70px 0 0px;
+}
+.footer .mediul li:first-child{
+	margin: 0 70px 0 310px;
+}
+.footer .mediul li p{
+	font-size: 14px;
+	color: #393;
+}.footer .mediul li:last-child p{
+	float:left;
+	font-size: 18px;
+	color: #0b0b0b;
+	margin: 30px 0 0 0;
+}.footer .mediul li:last-child i{
+	float:left;
+	font-size: 18px;
+	color: #393;
+	margin: 10px 0 0 0;
+}.footer .mediul li:last-child a:last-child{
+	float:left;
+	display: block;
+	font-size: 14px;
+	background: #393;
+	width:140px;
+	height: 36px;
+	line-height:36px;
+	text-align: center;
+	color: #fff;
+	margin: 10px 0 0 0;
+	border-radius: 3px;
+}.footer .mediul li:last-child a:last-child img{
+	float:left;
+	background: #393;
+	width:25px;
+	margin: 7px 0 0 20px;
+}.footer .downul {
+	width:1190px;
+	height:20px;
+	display: block;
+	margin: 20px auto;
+}.footer .downul li{
+	float:left;
+	color: #999;
+	margin: 0 20px 0 0;
+}.footer .downul li:first-child{
+	margin:0 20px 0 306px ;
+}
+.footer .downul li a{
+	font-size: 14px;
+	color: #999;
+}.footer .downul li a:hover{
+	color: #393;
+}
+.footer  span{
+	font-size: 14px;
+	color: #999;
+}

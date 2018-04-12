@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+.content{
+	position:relative;
+	width:1190px;
+	margin:0 auto;
+}
+
+body{
+	background:#fff;
+}
+.navi ul li:nth-child(3) a{
+	background:#1b9f4d;
+}
+.dianinfor{
+	float:left;
+	position:relative;
+	width:258px;
+	height:480px;
+	background:#fff;
+	margin:0 0 10px 0;
+	border:1px solid #33b363;
+	/* border-right:1px solid #a0e0a0; */
+}
+.dianinfor .titlediv{
+	position:relative;
+	width:258px;
+	height:79px;
+	border-bottom: 1px solid #33b363;
+}.dianinfor .titlediv label{
+	position:absolute;
+	width:65px;
+	height:75px;
+	display:block;
+	background-image: url("../img/jiangzhang.png");
+	right:9px;
+	top:-15px;
+}.dianinfor .titlediv label span{
+	position:relative;
+	display:block;
+	width:65px;
+	height:75px;
+	line-height: 60px;
+	text-align: center;
+	font-size:18px;
+	color:#c26a15;
+}.dianinfor .titlediv p{
+	font-size:18px;
+	color:#33b363;
+	font-weight: 700;
+	height:20px;
+	float:left;
+	margin:15px 0 0 10px;
+}.dianinfor .titlediv .pspan{
+	font-size:16px;
+	color:#33b363;
+	height:20px;
+	width:258px;
+	float:left;
+	margin:10px 0 0 10px;
+}
+.dianinfor ul li{
+	position:relatvie;
+	width:240px;
+	height:35px;
+	line-height: 35px;
+	margin:0 auto;
+	font-size:14px;
+}.dianinfor ul li:FIRST-CHILD span{
+float:left;
+font-size:16px;
+font-weight: 700;
+color:#33b363;
+margin: 0 3px 0 0;
+
+}.dianinfor ul li .lspan2{
+	float:left;
+	color:#808080;
+	margin: 0 15px 0 0;
+}
+.dianinfor ul li img{
+	display:inline-block;
+	float:left;
+	margin: 8px 3px 0 3px;
+}
+.dianinfor ul li:nth-child(5) img{
+	margin: 0px 3px 0 3px;
+}
+.rightdiv{
+	position: relative;
+	float: right;
+	width:898px;
+	min-height:800px;
+	border:1px solid #33b363;
+}
+.rightdiv>p{
+	position: relative;
+	width:878px;
+	height:40px;
+	padding:0 0 0 20px;
+	background:#33b363;
+	line-height: 40px;
+	color:#fff;
+}
+.rightdiv .content{
+	position: relative;
+	width:860px;
+	height:20px;
+	margin:0 auto;
+}
+
+

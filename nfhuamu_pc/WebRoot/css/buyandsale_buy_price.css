@@ -1,0 +1,179 @@
+@CHARSET "UTF-8";
+.leftnavi>ul li:nth-child(3) li:nth-child(1) a{
+	color:#393;	
+}
+
+
+.right-content{
+	float:left;
+	width:950px;
+	background:#fff;
+	padding:0 0 50px 0;
+}
+.rnavi{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+	height:36px;
+	border-bottom:2px solid #393;
+	background:#eaf5ea;
+}
+.rnavi ul li{
+	position: relative;
+	float:left;
+	width:160px;
+	height:36px;
+	
+}
+
+.rnavi ul li a{
+	position: relative;
+	display:block;
+	width:160px;
+	height:36px;
+	color:#393;
+	line-height: 36px;
+	text-align: center;
+}.rnavi ul li:nth-child(2) a{
+	background:#393;
+	color:#fff;
+}
+.content{
+	position: relative;
+	width:910px;
+	margin:0 auto;
+}.content .sousuo{
+	position: relative;
+	width:280px;
+	height:30px;
+	border-radius:5px;
+	background: -moz-linear-gradient(top, #fefefe 0%, #cde8cd 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#cde8cd)); 
+	background: -webkit-linear-gradient(top, #fefefe 0%,#cde8cd 100%); 
+	background: -o-linear-gradient(top, #fefefe 0%,#cde8cd 100%); 
+	background: -ms-linear-gradient(top, #fefefe 0%,#cde8cd 100%); 
+	background: linear-gradient(to bottom, #fefefe 0%,#cde8cd 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#cde8cd',GradientType=0 ); 
+	cursor:pointer;
+	border:1px solid #b3b3b3;
+	margin:40px auto;
+}
+.content .sousuo input{
+	position: relative;
+	padding:0px 10px;
+	height:30px;
+	border-radius:5px 0 0 5px;
+	float:left;
+	width:200px;
+	border-right:1px solid #b3b3b3;
+	background:#fff;
+}.content .sousuo span{
+	line-height: 30px;
+	font-size: 14px;
+	color:#393;
+	width:55px;
+	display: inline-block;
+	text-align: center;
+}
+.pricetable{
+	position: relative;
+	width:908px;
+	border-left:1px solid #b3b3b3;
+	border-right:1px solid #b3b3b3;
+	margin:40px 0 30px 0 ;
+	cursor: pointer;
+}
+.pricetable>ul>li{
+	position: relative;
+	width:908px;
+	height:49px;
+	border-top:1px solid #b3b3b3;
+	color:#1a1a1a;
+}
+.pricetable>ul>li:hover{
+	background:#eaf5ea;
+}
+.pricetable>ul>li:last-child{
+	border-bottom:1px solid #b3b3b3;
+}.pricetable>ul>li:first-child{
+	background:#ebebeb;
+}.pricetable>ul>li:nth-child(3){
+	border-top:1px solid #393;
+}.pricetable>ul>li ul li{
+	float:left;
+	width:24%;
+	position:relative;
+	text-align: center;
+	line-height: 48px;
+	font-size: 14px;
+}.pricetable>ul>li ul li:nth-child(3){
+	width:28%;
+}.pricetable>ul>li:nth-child(2) ul li{
+	font-size: 16px;
+	
+}.pricetable>ul>li span span{
+	color:#f00;	
+}
+.pricetable>ul>li ul li:last-child a{
+	position:relative;
+	color:#393;
+	width:100%;
+	display:block;
+	text-align:center;
+}
+/*查看报价的样式  */
+.price-details{
+	position: relative;
+	width:910px;
+	border:1px solid #ccc;
+	margin:40px 0 0 0;
+}
+.price-details>span{
+	display: block;
+	width:45%;
+	line-height: 25px;
+	color:#333;
+	height:25px;
+	margin:0 0 0 5%;	
+}.price-details>span:nth-child(1),.price-details>span:nth-child(2){
+	margin:25px 0 0 5%;	
+}
+.price-details>ul>li{
+	width:100%;
+	position:relative;
+	font-size: 14px;
+
+	line-height: 100px;
+}
+.price-details>ul>li:first-child{
+	background: #ebebeb;
+	height:50px;
+	line-height: 50px;
+	margin:30px 0 0 0;
+	font-size: 16px;
+}.price-details>ul>li>ul>li{
+	float:left;
+	width:16.6%;
+	text-align: center;
+	color:#1a1a1a;
+
+}.price-details>ul>li>ul>li:last-child{
+	color:#f00;
+}.price-details>ul>li:first-child>ul>li:last-child{
+	color:#1a1a1a;
+}.price-details>ul>li>ul>li span{
+	display: block;
+	width:100%;
+	height:20px;
+	text-align: center;
+	line-height:40px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+<head>
+  <style>#canvas {cursor: pointer;}</style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+	<!-- <img src="img/rzcenter2.jpg" id="img"/> -->
+    <script type="text/javascript">
+
+        var can = document.getElementById('canvas');
+        var ctx = can.getContext('2d');
+
+        var img = new Image();
+    /*   var img = document.getElementById('img'); */
+        img.onload = function(){
+            can.width = img.width;
+            can.height = img.height;
+            ctx.drawImage(img, 0, 0, img.width, img.height);
+        }
+        img.src = './img/rzcenter7.jpg';
+
+        can.onclick = function() {
+            ctx.translate(img.width-1, img.height-1);
+            ctx.rotate(Math.PI);
+            ctx.drawImage(img, 0, 0, img.width, img.height);
+        };
+
+   			document.write(can.toDataURL()); //isn't writing the correct base64 image
+   		     var img2 = document.createElement("img");
+   			img2.src=can.toDataURL();
+   			document.body.appendChild(img2);
+
+    </script>
+</body>
+</html>
